@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">EndExamEval</string>
+    <string name="app_name">TripTracker</string>
+    <string-array name="category_array">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Accommodation</item>
+        <item>Miscellaneous</item>
+    </string-array>
+
 </resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "56474980444",
+    "project_id": "expensetrackerproject-b4d5b",
+    "storage_bucket": "expensetrackerproject-b4d5b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56474980444:android:31ab7a738825d1433e5699",
+        "android_client_info": {
+          "package_name": "com.android.endexameval"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_yhlsWusVUaCzwHahDe2jXnDCHtAO07c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

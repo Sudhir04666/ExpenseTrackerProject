@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class DashboardActivity extends AppCompatActivity {
 
@@ -36,7 +37,7 @@ public class DashboardActivity extends AppCompatActivity {
         // Add expense button click listener
         addExpenseButton.setOnClickListener(v -> {
             // Navigate to AddExpenseActivity
-            startActivity(new Intent(DashboardActivity.this, AddExpenseActivity.class));
+            startActivity(new Intent(DashboardActivity.this, AddEditExpenseActivity.class));
         });
     }
 
