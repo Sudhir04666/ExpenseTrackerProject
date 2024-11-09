@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Total Expenses at the Top -->
+    <TextView
+        android:id="@+id/totalExpenseTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Expenses: $0.00"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp" />
+
+    <!-- Expense Breakdown by Category -->
+    <RecyclerView
+        android:id="@+id/categoryRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/totalExpenseTextView"
+        android:layout_above="@id/addExpenseButton"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Floating Action Button to Add Expense -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addExpenseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add"
+        android:contentDescription="Add Expense" />
+</RelativeLayout>
